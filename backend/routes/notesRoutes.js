@@ -10,4 +10,8 @@ router.post("/", (req,res) => {
     res.status(201).json({message: "Note created successfully!"});
 })
 
+router.put("/:id"), (req,res) => {
+    res.status(200).json({message: "Note updated successfully!"});
+}
+
 export default router;
